@@ -64,7 +64,7 @@ public class ProductActivity extends BaseActivity {
     public boolean onMenuItemSelected(int featureId, MenuItem item) {
         if (featureId == WindowUtils.FEATURE_VOICE_COMMANDS) {
             switch (item.getItemId()) {
-                case R.id.prod_nav_buy:
+                case R.id.prod_nav_pick:
                     displayConfirmationCard();
                     break;
                 case R.id.prod_nav_scan:

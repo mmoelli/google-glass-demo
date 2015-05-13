@@ -2,8 +2,8 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/prod_nav_buy"
-        android:title="@string/product_navigation_buy" />
+        android:id="@+id/prod_nav_pick"
+        android:title="@string/product_navigation_pick" />
     <item
         android:id="@+id/prod_nav_scan"
         android:title="@string/product_navigation_scan" />

@@ -104,7 +104,7 @@ public class ConfirmationActivity extends BaseActivity  {
                 displaySlider();
             cards.clear();
             cards.add(INDETERMINATE, new CardBuilder(this, CardBuilder.Layout.MENU)
-                    .setText(getResources().getString(R.string.purchase_completed)));
+                    .setText(getResources().getString(R.string.picking_completed)));
             mCardScroller.getAdapter().notifyDataSetChanged();
             ActivityKiller activityKiller = new ActivityKiller();
             activityKiller.start();
@@ -163,7 +163,7 @@ public class ConfirmationActivity extends BaseActivity  {
     private List<CardBuilder> createCards(Context context) {
         cards = new ArrayList<CardBuilder>();
         cards.add(INDETERMINATE, new CardBuilder(context, CardBuilder.Layout.MENU)
-                .setText(getResources().getString(R.string.purchase_progress)));
+                .setText(getResources().getString(R.string.picking_progress)));
         return cards;
     }
 
